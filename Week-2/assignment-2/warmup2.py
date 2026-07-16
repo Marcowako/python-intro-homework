@@ -1,6 +1,6 @@
 # Navigation commands I used:
 # cd Desktop/python-intro-homework
-# cd week-2/assigment-2
+# cd week-2/assignment-2
 # ls
 # Ask the user for the date and store it in a variable
 today_date = input("What is today's date? ")
