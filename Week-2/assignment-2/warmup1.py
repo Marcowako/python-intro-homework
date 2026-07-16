@@ -1,2 +1,3 @@
+ # Command: python Warmup1.py
 # OUtput: Python is working!
-print("Python is working!") # python warmup1.py# Command: python Warmup1.py
+print("Python is working!") 
