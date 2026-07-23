@@ -1,6 +1,6 @@
 # Warmup 4: Sign and Parity
 
-number = int(input("Enter a number: "))
+number = int(input("Enter a number: ")) # Get number input from  user
 
 # Check the sign
 if number > 0:
@@ -10,8 +10,10 @@ elif number < 0:
 else:
     print(f"{number} is zero.")
 
-# Check if the number is even or odd
+# Block 1 : Sign check (if / elif / else
 if number % 2 == 0:
     print(f"{number} is even.")
+elif number % 2 !=0:
+    print(f"{number}is odd.")
 else:
-    print(f"{number} is odd.")
+    print("Invalid number.")
