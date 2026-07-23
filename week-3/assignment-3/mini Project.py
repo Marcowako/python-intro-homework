@@ -26,6 +26,6 @@ elif day == "wednesday":
     elif time == "afternoon":
         print("Meet up with a friend or study together.")
     else:
-        print("Prepare for the rest of the week."
+        print("Prepare for the rest of the week.")
 else:
     print("Sorry, I don't recognize that day of the week.")
