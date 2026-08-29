@@ -6,10 +6,10 @@
 # platformdirs==4.9.6
 # python-discovery==1.3.1
 # requests==2.34.2
-#typing_extensions==4.15.0
+# typing_extensions==4.15.0
 # urllib3==2.7.0
 # virtualenv==21.3.3
 
 import requests
 
-print(requests.__version__)
+print(f"requests version: {requests.__version__}")
