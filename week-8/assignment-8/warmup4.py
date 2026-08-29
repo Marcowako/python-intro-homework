@@ -1,0 +1,15 @@
+# certifi==2026.7.22
+# charset-normalizer==3.5.1
+# distlib==0.4.0
+# filelock==3.29.0
+# idna==3.19
+# platformdirs==4.9.6
+# python-discovery==1.3.1
+# requests==2.34.2
+#typing_extensions==4.15.0
+# urllib3==2.7.0
+# virtualenv==21.3.3
+
+import requests
+
+print(requests.__version__)
