@@ -1,0 +1,23 @@
+# Specific — only catches ZeroDivisionError
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("Division by zero.")
+
+# Too broad — catches every error, including bugs you didn't intend to hide
+try:
+    result = 10 / 0
+except Exception:
+    print("you're dumb pepe.")
+
+try:
+    number = int("forty-two")
+except ValueError as e:
+    print(f"Conversion failed: {e}") 
+
+try:
+    result = 0 / 2
+except ZeroDivisionError:
+    print("Division by zero.")
+else:
+    print(f"Result: {result}")
